@@ -3,12 +3,11 @@
 > verifiable randomness in a decentralised network  
 
 ## Brief Explanation
-This app is an on going hobby project with the 3 following goals. 
+This app allows for a completely random ordering of a list, verifiable as random to all remote participating parties.  
+This is a hobby project with the 3 following goals. 
 1. To build a [HashCash](https://en.wikipedia.org/wiki/Hashcash/) inspired decentralised random selection tool, that can randomly select my lunch when I can't decide.
 2. To learn the basics of VUE.JS step by step, commit by commit.
-3. To not bother working on the look and feel of the app.  
-
-This app allows for a completely random selection from a list, verifiable as random to all remote participating parties.  
+3. To not bother working on the look and feel of the app.   
   
 This app uses the Bitcoin Blockchain as a source of entropy.  
 We build a simple list of items that the user has input, then we take the hash of the most recent Bitcoin block and perform [Proof Of Work](https://en.wikipedia.org/wiki/Proof-of-work_system) on all of the items in the specified list, the proof of work function takes the 3 following values for each item.  
