@@ -4,16 +4,16 @@
       {{ msg }}
     </h1>
     <p>
-      This app allows for a completely random selection from a list, verifiable as random to all remote participating parties.
+      This app allows for a completely random ordering of a list, verifiable as random to all remote participating parties.
     </p>
     <p>
       This app uses the Bitcoin Blockchain as a source of entropy.
-      We take the hash of the most recent block and perform Proof Of Work on all the items in the specified list, the proof of work function takes the 3 following values for each item.
+      We build a simple list of items that the user has input, then we take the hash of the most recent Bitcoin block and perform <a href="https://en.wikipedia.org/wiki/Proof-of-work_system">Proof Of Work</a> on all the items in the specified list, the proof of work function takes the 3 following values for each item.
     </p>
     <ul>
       <li>Hash of the most recent Bitcoin Block</li>
       <li>The List item</li>
-      <li>Nonce</li>
+      <li><a href="https://en.wikipedia.org/wiki/Cryptographic_nonce">Nonce</a></li>
     </ul>
     <p>
       The list will be ordered by the items having the highest nonce, so the highest nonce found wins!.
