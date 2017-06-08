@@ -5,7 +5,7 @@
 ## Brief Explanation
 This app allows for a completely random ordering of a list, verifiable as random to all remote participating parties.  
 This is a hobby project with the 3 following goals. 
-1. To build a [HashCash](https://en.wikipedia.org/wiki/Hashcash/) inspired decentralised random selection tool, that can randomly select my lunch when I can't decide.
+1. To build a [HashCash](https://en.wikipedia.org/wiki/Hashcash) inspired decentralised random selection tool, that can randomly select my lunch when I can't decide.
 2. To learn the basics of VUE.JS step by step, commit by commit.
 3. To not bother working on the look and feel of the app.   
   
