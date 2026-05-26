@@ -3,10 +3,10 @@
 > verifiable randomness in a decentralised network  
 
 ## Brief Explanation
-This app allows for a completely random ordering of a list, verifiable as random to all remote participating parties.  
+This app produces a deterministic ordering of a list that is unknown in advance and verifiable by all remote participating parties.  
 This is a hobby project with the 3 following goals. 
 1. To build a [HashCash](https://en.wikipedia.org/wiki/Hashcash) inspired decentralised random selection tool, that can randomly select my lunch when I can't decide.
-2. To learn the basics of VUE.JS step by step, commit by commit.
+2. To learn the basics of React/Next.js step by step, commit by commit.
 3. To not bother working on the look and feel of the app.   
   
 This app uses the Bitcoin Blockchain as a source of entropy.  
@@ -24,23 +24,12 @@ Any remote party can validate the winning result via the validate link.
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:3000
 npm run dev
 
-# build for production with minification
+# build for production
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+# start production server
+npm run start
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
